@@ -40,7 +40,6 @@ public class Student {
     public List<courses> get_courses() {
         return this.course;
     }
-
     public void set_courses( courses course) {
         this.course.add(course);
     }

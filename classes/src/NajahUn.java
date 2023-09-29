@@ -14,18 +14,10 @@ public class NajahUn implements IUniversity{
     public List<Student> get_list_of_students(){
         return this.list_of_students;
     }
-
     @Override
-    public void add_student(Student student) {
-        list_of_students.add(student);
-
-    }
-
+    public void add_student(Student student) {list_of_students.add(student);}
     @Override
-    public void add_courses(courses course) {
-        list_of_courses.add(course);
-
-    }
+    public void add_courses(courses course) {list_of_courses.add(course);}
 
     @Override
     public void enroll_students_in_courses(Student student,courses course) {
@@ -63,5 +55,4 @@ public class NajahUn implements IUniversity{
         System.out.println(student.get_courses());
 
     }
-
 }
