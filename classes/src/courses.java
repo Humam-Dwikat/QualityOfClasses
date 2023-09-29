@@ -29,7 +29,6 @@ public class courses {
     public void set_maximum_capacity(int maximum_capacity){
         this.maximum_capacity = maximum_capacity;
     }
-
     public int get_course_code(){
         return this.course_code;
     }

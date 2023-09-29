@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         NajahUn university = new NajahUn();
+
         courses course1 = new courses(1,
                 "Math",
                 "Prof. Smith",

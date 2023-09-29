@@ -6,4 +6,5 @@ public interface IUniversity {
     void drop_students_from_courses(Student student, courses course);
     void get_available_courses();
     void get_course_of_specific_student(Student student);
+
 }
